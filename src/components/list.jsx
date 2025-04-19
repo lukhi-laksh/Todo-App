@@ -8,6 +8,11 @@ const TodoItem = ({ id, todoText, todoDate }) => {
     <div className="container">
       <div className="row my-row">
         <div className="col-5 text-truncate">{todoText}</div>
+         <div className="col-3">{todoDate}</div>
+           <div className="col-2">
+          <MyButton btnType={"danger"} btnText={"Delete"} handler={deleteHandler}/>
+        </div>
+      </div>
     </div>
   );
 };
