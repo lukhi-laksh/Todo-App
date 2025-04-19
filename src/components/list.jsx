@@ -16,5 +16,5 @@ const TodoItem = ({ id, todoText, todoDate }) => {
     </div>
   );
 };
-
+// that is show type of the button to select new button
 export default TodoItem;
