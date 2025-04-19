@@ -1,5 +1,5 @@
 import MyButton from "./MyButton";
-
+// we must need to give type of button
 const TodoItem = ({ id, todoText, todoDate }) => {
   const deleteHandler = () => {
     console.log(`deleete button clicked which id is ${id} ${todoText}`);
